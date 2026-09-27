@@ -1,12 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/ico" href="/DMLlogo.ico" />
-    <meta
-      name="google-site-verification"
-      content="xbW517rQqVumvRHqSfBakqSIqqRTd8_aJcbDCiOtg88"
+    <link rel="icon" href="/DMLlogo.ico" />
+    <link rel="preload" as="image" href="/hero-mobile.webp" media="(max-width: 767px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/hero-desktop.webp" media="(min-width: 768px)" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Inter&family=Montserrat:wght@400;600;700;900&family=Poppins:wght@900&family=Racing+Sans+One&display=swap"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Inter&family=Montserrat:wght@400;600;700;900&family=Poppins:wght@900&family=Racing+Sans+One&display=swap"
+      />
+    </noscript>
+    <meta name="google-site-verification" content="xbW517rQqVumvRHqSfBakqSIqqRTd8_aJcbDCiOtg88" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D.M.L. - Gommista a Formia</title>
     <meta
@@ -17,7 +33,18 @@
       name="keywords"
       content="Formia, DML, Gommista, Pneumatici, Auto, Camion, Moto, Gomme, Di Maio Luigi, Gommista a Formia comune, gommisti, pneumatici"
     />
-    <meta name="author" content="Claudia Parravano, github: @clxdia" />
+    <meta name="author" content="CP - github: @clxdia" />
+    <meta property="og:site_name" content="D.M.L. - Gommista a Formia" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "D.M.L. - Gommista a Formia",
+        "alternateName": "D.M.L.",
+        "url": "https://dimaioluigigomme.vercel.app/"
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
