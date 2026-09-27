@@ -7,6 +7,7 @@ export default {
         racing: ["Racing Sans One", "sans-serif"],
         contrail: ["Contrail One", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
